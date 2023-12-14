@@ -1,5 +1,5 @@
-def github():
-    print(f"Hello, GitHub!")
+def github(name):
+    print(f"Hello, {name}!")
 
 if __name__ == '__main__':
-    github()
+    github(name=GitHub)
